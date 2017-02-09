@@ -14,6 +14,11 @@
 		5D10BB891E4C4670002985AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D10BB871E4C4670002985AF /* LaunchScreen.storyboard */; };
 		5D10BB941E4C4670002985AF /* cakesApp7_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D10BB931E4C4670002985AF /* cakesApp7_3Tests.swift */; };
 		5D10BB9F1E4C4670002985AF /* cakesApp7_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D10BB9E1E4C4670002985AF /* cakesApp7_3UITests.swift */; };
+		5D879E761E4C582200C2BD77 /* CASignupPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D879E751E4C582200C2BD77 /* CASignupPageViewController.swift */; };
+		5D95FA4B1E4C75A8007569D7 /* TabbarHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D95FA4A1E4C75A8007569D7 /* TabbarHomeViewController.swift */; };
+		5D95FA4D1E4C75B6007569D7 /* TabbarWishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D95FA4C1E4C75B6007569D7 /* TabbarWishViewController.swift */; };
+		5D95FA4F1E4C75C8007569D7 /* TabbarAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D95FA4E1E4C75C8007569D7 /* TabbarAccountViewController.swift */; };
+		5D95FA511E4C75F0007569D7 /* TabbarCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D95FA501E4C75F0007569D7 /* TabbarCartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		5D10BB9A1E4C4670002985AF /* cakesApp7.3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cakesApp7.3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D10BB9E1E4C4670002985AF /* cakesApp7_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cakesApp7_3UITests.swift; sourceTree = "<group>"; };
 		5D10BBA01E4C4670002985AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D879E751E4C582200C2BD77 /* CASignupPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignupPageViewController.swift; sourceTree = "<group>"; };
+		5D95FA4A1E4C75A8007569D7 /* TabbarHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarHomeViewController.swift; sourceTree = "<group>"; };
+		5D95FA4C1E4C75B6007569D7 /* TabbarWishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarWishViewController.swift; sourceTree = "<group>"; };
+		5D95FA4E1E4C75C8007569D7 /* TabbarAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarAccountViewController.swift; sourceTree = "<group>"; };
+		5D95FA501E4C75F0007569D7 /* TabbarCartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarCartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,11 @@
 			children = (
 				5D10BB7E1E4C4670002985AF /* AppDelegate.swift */,
 				5D10BB801E4C4670002985AF /* ViewController.swift */,
+				5D879E751E4C582200C2BD77 /* CASignupPageViewController.swift */,
+				5D95FA4A1E4C75A8007569D7 /* TabbarHomeViewController.swift */,
+				5D95FA4C1E4C75B6007569D7 /* TabbarWishViewController.swift */,
+				5D95FA4E1E4C75C8007569D7 /* TabbarAccountViewController.swift */,
+				5D95FA501E4C75F0007569D7 /* TabbarCartViewController.swift */,
 				5D10BB821E4C4670002985AF /* Main.storyboard */,
 				5D10BB851E4C4670002985AF /* Assets.xcassets */,
 				5D10BB871E4C4670002985AF /* LaunchScreen.storyboard */,
@@ -257,7 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D10BB811E4C4670002985AF /* ViewController.swift in Sources */,
+				5D95FA511E4C75F0007569D7 /* TabbarCartViewController.swift in Sources */,
+				5D95FA4B1E4C75A8007569D7 /* TabbarHomeViewController.swift in Sources */,
+				5D95FA4F1E4C75C8007569D7 /* TabbarAccountViewController.swift in Sources */,
 				5D10BB7F1E4C4670002985AF /* AppDelegate.swift in Sources */,
+				5D879E761E4C582200C2BD77 /* CASignupPageViewController.swift in Sources */,
+				5D95FA4D1E4C75B6007569D7 /* TabbarWishViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +504,7 @@
 				5D10BBA51E4C4670002985AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D10BBA61E4C4670002985AF /* Build configuration list for PBXNativeTarget "cakesApp7.3Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +513,7 @@
 				5D10BBA81E4C4670002985AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D10BBA91E4C4670002985AF /* Build configuration list for PBXNativeTarget "cakesApp7.3UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +522,7 @@
 				5D10BBAB1E4C4670002985AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
