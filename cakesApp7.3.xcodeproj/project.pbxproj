@@ -14,11 +14,15 @@
 		5D10BB891E4C4670002985AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D10BB871E4C4670002985AF /* LaunchScreen.storyboard */; };
 		5D10BB941E4C4670002985AF /* cakesApp7_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D10BB931E4C4670002985AF /* cakesApp7_3Tests.swift */; };
 		5D10BB9F1E4C4670002985AF /* cakesApp7_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D10BB9E1E4C4670002985AF /* cakesApp7_3UITests.swift */; };
+		5D6EC4E71E4D96A6007E25C4 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6EC4E61E4D96A6007E25C4 /* ShopViewController.swift */; };
+		5D6EC4E91E4DAEEA007E25C4 /* CakeTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6EC4E81E4DAEEA007E25C4 /* CakeTypeViewController.swift */; };
 		5D879E761E4C582200C2BD77 /* CASignupPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D879E751E4C582200C2BD77 /* CASignupPageViewController.swift */; };
 		5D95FA4B1E4C75A8007569D7 /* TabbarHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D95FA4A1E4C75A8007569D7 /* TabbarHomeViewController.swift */; };
 		5D95FA4D1E4C75B6007569D7 /* TabbarWishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D95FA4C1E4C75B6007569D7 /* TabbarWishViewController.swift */; };
 		5D95FA4F1E4C75C8007569D7 /* TabbarAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D95FA4E1E4C75C8007569D7 /* TabbarAccountViewController.swift */; };
 		5D95FA511E4C75F0007569D7 /* TabbarCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D95FA501E4C75F0007569D7 /* TabbarCartViewController.swift */; };
+		5D95FA531E4CAE72007569D7 /* OrderHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D95FA521E4CAE72007569D7 /* OrderHistoryViewController.swift */; };
+		5D95FA551E4CB15E007569D7 /* Delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D95FA541E4CB15E007569D7 /* Delete.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,11 +56,15 @@
 		5D10BB9A1E4C4670002985AF /* cakesApp7.3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cakesApp7.3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D10BB9E1E4C4670002985AF /* cakesApp7_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cakesApp7_3UITests.swift; sourceTree = "<group>"; };
 		5D10BBA01E4C4670002985AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D6EC4E61E4D96A6007E25C4 /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		5D6EC4E81E4DAEEA007E25C4 /* CakeTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CakeTypeViewController.swift; sourceTree = "<group>"; };
 		5D879E751E4C582200C2BD77 /* CASignupPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignupPageViewController.swift; sourceTree = "<group>"; };
 		5D95FA4A1E4C75A8007569D7 /* TabbarHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarHomeViewController.swift; sourceTree = "<group>"; };
 		5D95FA4C1E4C75B6007569D7 /* TabbarWishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarWishViewController.swift; sourceTree = "<group>"; };
 		5D95FA4E1E4C75C8007569D7 /* TabbarAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarAccountViewController.swift; sourceTree = "<group>"; };
 		5D95FA501E4C75F0007569D7 /* TabbarCartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarCartViewController.swift; sourceTree = "<group>"; };
+		5D95FA521E4CAE72007569D7 /* OrderHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderHistoryViewController.swift; sourceTree = "<group>"; };
+		5D95FA541E4CB15E007569D7 /* Delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Delete.png; path = Assets.xcassets/Delete.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +95,7 @@
 		5D10BB721E4C4670002985AF = {
 			isa = PBXGroup;
 			children = (
+				5D6EC4DA1E4D93D2007E25C4 /* Helper Files */,
 				5D10BB7D1E4C4670002985AF /* cakesApp7.3 */,
 				5D10BB921E4C4670002985AF /* cakesApp7.3Tests */,
 				5D10BB9D1E4C4670002985AF /* cakesApp7.3UITests */,
@@ -111,11 +120,15 @@
 				5D10BB801E4C4670002985AF /* ViewController.swift */,
 				5D879E751E4C582200C2BD77 /* CASignupPageViewController.swift */,
 				5D95FA4A1E4C75A8007569D7 /* TabbarHomeViewController.swift */,
+				5D6EC4E61E4D96A6007E25C4 /* ShopViewController.swift */,
+				5D6EC4E81E4DAEEA007E25C4 /* CakeTypeViewController.swift */,
 				5D95FA4C1E4C75B6007569D7 /* TabbarWishViewController.swift */,
 				5D95FA4E1E4C75C8007569D7 /* TabbarAccountViewController.swift */,
 				5D95FA501E4C75F0007569D7 /* TabbarCartViewController.swift */,
+				5D95FA521E4CAE72007569D7 /* OrderHistoryViewController.swift */,
 				5D10BB821E4C4670002985AF /* Main.storyboard */,
 				5D10BB851E4C4670002985AF /* Assets.xcassets */,
+				5D95FA541E4CB15E007569D7 /* Delete.png */,
 				5D10BB871E4C4670002985AF /* LaunchScreen.storyboard */,
 				5D10BB8A1E4C4670002985AF /* Info.plist */,
 			);
@@ -138,6 +151,13 @@
 				5D10BBA01E4C4670002985AF /* Info.plist */,
 			);
 			path = cakesApp7.3UITests;
+			sourceTree = "<group>";
+		};
+		5D6EC4DA1E4D93D2007E25C4 /* Helper Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Helper Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D95FA551E4CB15E007569D7 /* Delete.png in Resources */,
 				5D10BB891E4C4670002985AF /* LaunchScreen.storyboard in Resources */,
 				5D10BB861E4C4670002985AF /* Assets.xcassets in Resources */,
 				5D10BB841E4C4670002985AF /* Main.storyboard in Resources */,
@@ -271,13 +292,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D95FA531E4CAE72007569D7 /* OrderHistoryViewController.swift in Sources */,
 				5D10BB811E4C4670002985AF /* ViewController.swift in Sources */,
+				5D6EC4E91E4DAEEA007E25C4 /* CakeTypeViewController.swift in Sources */,
 				5D95FA511E4C75F0007569D7 /* TabbarCartViewController.swift in Sources */,
 				5D95FA4B1E4C75A8007569D7 /* TabbarHomeViewController.swift in Sources */,
 				5D95FA4F1E4C75C8007569D7 /* TabbarAccountViewController.swift in Sources */,
 				5D10BB7F1E4C4670002985AF /* AppDelegate.swift in Sources */,
 				5D879E761E4C582200C2BD77 /* CASignupPageViewController.swift in Sources */,
 				5D95FA4D1E4C75B6007569D7 /* TabbarWishViewController.swift in Sources */,
+				5D6EC4E71E4D96A6007E25C4 /* ShopViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

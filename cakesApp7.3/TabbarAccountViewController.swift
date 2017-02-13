@@ -12,10 +12,13 @@ class TabbarAccountViewController: UIViewController, UITabBarDelegate,UITableVie
 
     var indexpath:Int = 0
     
+   
+    
+    
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.automaticallyAdjustsScrollViewInsets = false
         // Do any additional setup after loading the view.
     }
 
@@ -30,14 +33,15 @@ class TabbarAccountViewController: UIViewController, UITabBarDelegate,UITableVie
         
         let amountlbl:UILabel = cell.viewWithTag(1) as! UILabel!
         
-       
+       if(indexPath.row == 2)
+       {
+            amountlbl.text = "Order History"
+        }
+       else{
         amountlbl.text = "Notification"
+        }
      
-      
-//        cell.layer.cornerRadius = 8
-//        cell.clipsToBounds = true
-//        cell.layer.borderWidth = 0.5
-//        cell.selectionStyle = UITableViewCellSelectionStyle.None
+
         
         return cell
     }
@@ -51,9 +55,29 @@ class TabbarAccountViewController: UIViewController, UITabBarDelegate,UITableVie
         
     }
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        self.indexpath = indexPath.row
+        if(indexPath.row == 2)
+        {
+            self.performSegueWithIdentifier("goto_Order", sender: self)
+        }
        
     }
+    
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        if(segue.identifier == "goto_Order")
+        {
+            let backItem = UIBarButtonItem()
+            backItem.title = "ORDER HISTORY"
+            navigationItem.backBarButtonItem = backItem
+        }
+        
+    }
+    
+   
+
+
+    
     /*
     // MARK: - Navigation
 
