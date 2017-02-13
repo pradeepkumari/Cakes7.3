@@ -14,6 +14,10 @@
 		5D10BB891E4C4670002985AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D10BB871E4C4670002985AF /* LaunchScreen.storyboard */; };
 		5D10BB941E4C4670002985AF /* cakesApp7_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D10BB931E4C4670002985AF /* cakesApp7_3Tests.swift */; };
 		5D10BB9F1E4C4670002985AF /* cakesApp7_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D10BB9E1E4C4670002985AF /* cakesApp7_3UITests.swift */; };
+		5D1A8A221E51EFB20067B5AB /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A8A211E51EFB20067B5AB /* AddressViewController.swift */; };
+		5D1A8A241E51F8B40067B5AB /* ReviewOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A8A231E51F8B40067B5AB /* ReviewOrderViewController.swift */; };
+		5D1A8A261E520B1D0067B5AB /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A8A251E520B1D0067B5AB /* PaymentViewController.swift */; };
+		5D5D5B811E51CB20001FF1CD /* ApplyCouponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5D5B801E51CB20001FF1CD /* ApplyCouponViewController.swift */; };
 		5D6EC4E71E4D96A6007E25C4 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6EC4E61E4D96A6007E25C4 /* ShopViewController.swift */; };
 		5D6EC4E91E4DAEEA007E25C4 /* CakeTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6EC4E81E4DAEEA007E25C4 /* CakeTypeViewController.swift */; };
 		5D879E761E4C582200C2BD77 /* CASignupPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D879E751E4C582200C2BD77 /* CASignupPageViewController.swift */; };
@@ -56,6 +60,10 @@
 		5D10BB9A1E4C4670002985AF /* cakesApp7.3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cakesApp7.3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D10BB9E1E4C4670002985AF /* cakesApp7_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cakesApp7_3UITests.swift; sourceTree = "<group>"; };
 		5D10BBA01E4C4670002985AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D1A8A211E51EFB20067B5AB /* AddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressViewController.swift; sourceTree = "<group>"; };
+		5D1A8A231E51F8B40067B5AB /* ReviewOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewOrderViewController.swift; sourceTree = "<group>"; };
+		5D1A8A251E520B1D0067B5AB /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		5D5D5B801E51CB20001FF1CD /* ApplyCouponViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyCouponViewController.swift; sourceTree = "<group>"; };
 		5D6EC4E61E4D96A6007E25C4 /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
 		5D6EC4E81E4DAEEA007E25C4 /* CakeTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CakeTypeViewController.swift; sourceTree = "<group>"; };
 		5D879E751E4C582200C2BD77 /* CASignupPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignupPageViewController.swift; sourceTree = "<group>"; };
@@ -124,8 +132,12 @@
 				5D6EC4E81E4DAEEA007E25C4 /* CakeTypeViewController.swift */,
 				5D95FA4C1E4C75B6007569D7 /* TabbarWishViewController.swift */,
 				5D95FA4E1E4C75C8007569D7 /* TabbarAccountViewController.swift */,
-				5D95FA501E4C75F0007569D7 /* TabbarCartViewController.swift */,
 				5D95FA521E4CAE72007569D7 /* OrderHistoryViewController.swift */,
+				5D95FA501E4C75F0007569D7 /* TabbarCartViewController.swift */,
+				5D5D5B801E51CB20001FF1CD /* ApplyCouponViewController.swift */,
+				5D1A8A211E51EFB20067B5AB /* AddressViewController.swift */,
+				5D1A8A231E51F8B40067B5AB /* ReviewOrderViewController.swift */,
+				5D1A8A251E520B1D0067B5AB /* PaymentViewController.swift */,
 				5D10BB821E4C4670002985AF /* Main.storyboard */,
 				5D10BB851E4C4670002985AF /* Assets.xcassets */,
 				5D95FA541E4CB15E007569D7 /* Delete.png */,
@@ -293,10 +305,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D95FA531E4CAE72007569D7 /* OrderHistoryViewController.swift in Sources */,
+				5D1A8A241E51F8B40067B5AB /* ReviewOrderViewController.swift in Sources */,
 				5D10BB811E4C4670002985AF /* ViewController.swift in Sources */,
 				5D6EC4E91E4DAEEA007E25C4 /* CakeTypeViewController.swift in Sources */,
+				5D1A8A221E51EFB20067B5AB /* AddressViewController.swift in Sources */,
 				5D95FA511E4C75F0007569D7 /* TabbarCartViewController.swift in Sources */,
 				5D95FA4B1E4C75A8007569D7 /* TabbarHomeViewController.swift in Sources */,
+				5D1A8A261E520B1D0067B5AB /* PaymentViewController.swift in Sources */,
+				5D5D5B811E51CB20001FF1CD /* ApplyCouponViewController.swift in Sources */,
 				5D95FA4F1E4C75C8007569D7 /* TabbarAccountViewController.swift in Sources */,
 				5D10BB7F1E4C4670002985AF /* AppDelegate.swift in Sources */,
 				5D879E761E4C582200C2BD77 /* CASignupPageViewController.swift in Sources */,

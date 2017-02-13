@@ -19,6 +19,10 @@ class TabbarAccountViewController: UIViewController, UITabBarDelegate,UITableVie
     override func viewDidLoad() {
         super.viewDidLoad()
         self.automaticallyAdjustsScrollViewInsets = false
+        
+        self.navigationController?.navigationBar.barTintColor = UIColor.redColor()
+        self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
+        
         // Do any additional setup after loading the view.
     }
 
